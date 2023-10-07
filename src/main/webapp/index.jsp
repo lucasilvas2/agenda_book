@@ -1,4 +1,5 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,8 +15,8 @@
         <div class="card p-2">
             <form action="LoginServlet" method="POST">
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="user" name="user" placeholder="Usu√°rio">
-                    <label for="user">Usu√°rio</label>
+                    <input type="text" class="form-control" id="user" name="user" placeholder="Usu·rio">
+                    <label for="user">Usu·rio</label>
                 </div>
                 <div class="form-floating">
                     <input type="password" class="form-control" id="password" name="password" placeholder="Senha">
